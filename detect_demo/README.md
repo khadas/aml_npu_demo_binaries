@@ -21,3 +21,9 @@ $ ./detect_demo 1 1080p.bmp
 ```
 $ ./detect_demo 3 1080p.bmp
 ```
+
+### Facenet demo
+```
+$ ./detect_demo 11 1080p.bmp  0
+$ ./detect_demo 11 1080p.bmp  1
+```
