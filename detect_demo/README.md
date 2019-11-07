@@ -37,3 +37,9 @@ $ ./detect_demo_uvc /dev/videoX 2
 ```
 $ sudo ./UNINSTALL
 ```
+
+### Source Code
+
+`detect_demo_uvc`: https://gitlab.com/numbqq/aml_npu_app/tree/master/detect_library/yoloface_demo_gst_uvc
+
+`detect_demo_mipi`: https://gitlab.com/numbqq/aml_npu_app/tree/master/detect_library/yoloface_demo_mipi
