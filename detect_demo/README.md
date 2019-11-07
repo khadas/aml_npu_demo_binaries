@@ -15,20 +15,22 @@ E.g For UVC:
 * Yoloface demo
 
 ```
-$ ./detect_demo_uvc 0
+$ ./detect_demo_uvc /dev/videoX 0
 ```
 
 * YoloV2 demo
 
 ```
-$ ./detect_demo_uvc 1
+$ ./detect_demo_uvc /dev/videoX 1
 ```
 
 * YoloV3 demo
 
 ```
-$ ./detect_demo_uvc 2
+$ ./detect_demo_uvc /dev/videoX 2
 ```
+
+*Note: Replace /dev/videoX to the correct node.*
 
 ### Uninstall the libraries
 
