@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm /usr/lib/libnn_detect.so*
+rm /usr/lib/libnn_facenet.so*
+rm /usr/lib/libnn_yoloface.so*
+rm /usr/lib/libnn_yolo_v2.so*
+rm /usr/lib/libnn_yolo_v3.so*
