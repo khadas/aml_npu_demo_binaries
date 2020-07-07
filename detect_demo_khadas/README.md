@@ -34,6 +34,6 @@ $ sudo ./UNINSTALL
 
 ### Source Code
 
-`detect_demo_uvc`: 
+`detect_demo_uvc`: https://gitlab.com/numbqq/aml_npu_app/tree/master/detect_library/yolo_demo_gst_uvc
 
-`detect_demo_mipi`: 
+`detect_demo_mipi`: https://gitlab.com/numbqq/aml_npu_app/tree/master/detect_library/yolo_demo_mipi
