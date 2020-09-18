@@ -22,6 +22,17 @@ $ ./detect_demo 1 1080p.bmp
 $ ./detect_demo 2 1080p.bmp
 ```
 
+### YoloTiny demo
+
+```
+$ ./detect_demo 3 1080p.bmp
+```
+
+### YoloV4 demo
+
+```
+$ ./detect_demo 4 1080p.bmp
+```
 ### Facenet demo
 ```
 $ ./detect_demo 11 1080p.bmp  0

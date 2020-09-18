@@ -8,8 +8,7 @@ $ sudo ./INSTALL
 
 x11:
 
-* MIPI: `detect_demo_mipi_x11`
-* UVC: `detect_demo_uvc_x11`
+* MIPI: `detect_demo_x11`
 
 framebuffer:
 
@@ -37,6 +36,17 @@ $ ./detect_demo_uvc_xx /dev/videoX 1
 $ ./detect_demo_uvc_xx /dev/videoX 2
 ```
 
+* YoloTiny demo
+
+```
+$ ./detect_demo_uvc_xx /dev/videoX 3
+```
+
+* YoloV4 demo
+
+```
+$ ./detect_demo_uvc_xx /dev/videoX 4
+```
 *Note: Replace /dev/videoX to the correct node.*
 
 ### Uninstall the libraries
