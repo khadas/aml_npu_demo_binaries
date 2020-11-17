@@ -1,4 +1,0 @@
-#!/bin/bash
-
-cp -arf lib/* /usr/lib
-
