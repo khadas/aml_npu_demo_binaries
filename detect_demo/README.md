@@ -8,7 +8,8 @@ $ sudo ./INSTALL
 
 x11:
 
-* MIPI: `detect_demo_x11`
+* MIPI: `detect_demo_x11_mipi`
+* USB: `detect_demo_x11_usb`
 
 framebuffer:
 
@@ -21,25 +22,25 @@ E.g For UVC:
 * Yoloface demo
 
 ```
-$ ./detect_demo_uvc_xx /dev/videoX 0
+$ ./detect_demo_uvc_xx -d /dev/videoX -m 0
 ```
 
 * YoloV2 demo
 
 ```
-$ ./detect_demo_uvc_xx /dev/videoX 1
+$ ./detect_demo_uvc_xx -d /dev/videoX -m 1
 ```
 
 * YoloV3 demo
 
 ```
-$ ./detect_demo_uvc_xx /dev/videoX 2
+$ ./detect_demo_uvc_xx -d /dev/videoX -m 2
 ```
 
 * YoloTiny demo
 
 ```
-$ ./detect_demo_uvc_xx /dev/videoX 3
+$ ./detect_demo_uvc_xx -d /dev/videoX -m 3
 ```
 
 * YoloV4 demo
