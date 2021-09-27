@@ -1,0 +1,4 @@
+[submodule "detect_demo_picture/nn_data"]
+	path = detect_demo_picture/nn_data
+	url = https://gitlab.com/khadas/convert_model_zoo.git
+	branch = aml_npu_demo
